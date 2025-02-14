@@ -1,0 +1,19 @@
+<!--
+  @description       : 
+  @author            : Adarsh
+  @group             : 
+  @last modified on  : 11-20-2024
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <div class="main">
+        <div class="slds-tabs_default__nav nav">
+            <span class="slds-tabs_default__item slds-is-active">
+                <h3 class="section-title">Contact Creator</h3>
+            </span>
+        </div>
+
+        <lightning-record-form object-api-name={objectApiName} fields={fields} onsuccess={handleSuccess}>
+        </lightning-record-form>
+    </div>
+</template>
